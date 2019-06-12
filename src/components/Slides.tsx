@@ -15,6 +15,7 @@ import Slide10 from './Slide10';
 
 const anchors = ['wstep', 'wybor-projekt', 'dlaczego', 'specyfikacja', 'wykorzystane-narzedia', 'prezentacja-projektu', 'podsumowanie', 'podziekowania'];
 const navigationTooltips = ['Wstęp', 'wybor-projekt', 'dlaczego', 'specyfikacja', 'wykorzystane-narzedia', 'prezentacja-projektu', 'podsumowanie', 'podziekowania'];
+const backgroundColors = ['#1d3a4e', '#112f44', '#1d3a4e', '#2a4558', '#365061', '#435b6b', '#4f6675', '#5c717f', '#687c89', '#758793', '#82929d', '#8e9ca6', '#9ba7b0;']
 
 class Slides extends Component {
 
@@ -33,7 +34,7 @@ class Slides extends Component {
                     anchors={anchors}
                     navigation
                     navigationTooltips={navigationTooltips}
-                    sectionsColor={["#112f44", "#1d3a4e", "#2a4558", "#365061", "#435b6b", "#4f6675", "#5c717f", "#687c89", "#758793", "#82929d", "#8e9ca6", "#9ba7b0;"]}
+                    sectionsColor={backgroundColors}
                     scrollOverflow={true}
                     onLeave={this.onLeave.bind(this)}
                     afterLoad={this.afterLoad.bind(this)}

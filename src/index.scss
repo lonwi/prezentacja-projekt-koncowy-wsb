@@ -119,6 +119,16 @@ section {
   font-weight: 500;
   font-size: 1rem;
 }
+.section-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
 @media (min-width: 992px) {
   .section-header {
     text-align: right;
@@ -129,13 +139,21 @@ section {
 }
 
 .intro-backround {
-    background-image: url('./assets/intro-screen-mobile.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("./assets/intro-screen-mobile.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-@media (min-width: 992px) { 
-    .intro-backround { 
-        background-image: url('./assets/intro-screen-desktop.jpg');
-    }
+@media (min-width: 992px) {
+  .intro-backround {
+    background-image: url("./assets/intro-screen-desktop.jpg");
+  }
 }
+.logos {
+  img {
+    max-height: 20vh;
+    width: auto;
+    margin: 1vw;
+  }
+}
+
