@@ -1,11 +1,20 @@
-import React, { Component } from 'react'
-import Slide1 from './Slide1';
-import Slide2 from './Slide2';
-import Slide3 from './Slide3';
+import React, { Component } from 'react';
 import "fullpage.js/vendors/scrolloverflow";
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const anchors = ["firstPage", "secondPage", "thirdPage"];
+import Slide1 from './Slide1';
+import Slide2 from './Slide2';
+import Slide3 from './Slide3';
+import Slide4 from './Slide4';
+import Slide5 from './Slide5';
+import Slide6 from './Slide6';
+import Slide7 from './Slide7';
+import Slide8 from './Slide8';
+import Slide9 from './Slide9';
+import Slide10 from './Slide10';
+
+const anchors = ['wstep', 'wybor-projekt', 'dlaczego', 'specyfikacja', 'wykorzystane-narzedia', 'prezentacja-projektu', 'podsumowanie', 'podziekowania'];
+const navigationTooltips = ['Wstęp', 'wybor-projekt', 'dlaczego', 'specyfikacja', 'wykorzystane-narzedia', 'prezentacja-projektu', 'podsumowanie', 'podziekowania'];
 
 class Slides extends Component {
 
@@ -23,7 +32,7 @@ class Slides extends Component {
                 <ReactFullpage
                     anchors={anchors}
                     navigation
-                    navigationTooltips={anchors}
+                    navigationTooltips={navigationTooltips}
                     sectionsColor={["#112f44", "#1d3a4e", "#2a4558", "#365061", "#435b6b", "#4f6675", "#5c717f", "#687c89", "#758793", "#82929d", "#8e9ca6", "#9ba7b0;"]}
                     scrollOverflow={true}
                     onLeave={this.onLeave.bind(this)}
@@ -34,6 +43,13 @@ class Slides extends Component {
                                 <Slide1 />
                                 <Slide2 />
                                 <Slide3 />
+                                <Slide4 />
+                                <Slide5 />
+                                <Slide6 />
+                                <Slide7 />
+                                <Slide8 />
+                                <Slide9 />
+                                <Slide10 />
                             </ReactFullpage.Wrapper>
                         );
                     }}
