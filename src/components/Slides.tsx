@@ -9,13 +9,13 @@ import Slide4 from './Slide4';
 import Slide5 from './Slide5';
 import Slide6 from './Slide6';
 import Slide7 from './Slide7';
-import Slide8 from './Slide8';
-import Slide9 from './Slide9';
-import Slide10 from './Slide10';
+// import Slide8 from './Slide8';
+// import Slide9 from './Slide9';
+// import Slide10 from './Slide10';
 
-const anchors = ['wstep', 'wybor-projekt', 'dlaczego', 'specyfikacja', 'wykorzystane-narzedia', 'prezentacja-projektu', 'podsumowanie', 'podziekowania'];
-const navigationTooltips = ['Wstęp', 'wybor-projekt', 'dlaczego', 'specyfikacja', 'wykorzystane-narzedia', 'prezentacja-projektu', 'podsumowanie', 'podziekowania'];
-const backgroundColors = ['#1d3a4e', '#112f44', '#1d3a4e', '#2a4558', '#365061', '#435b6b', '#4f6675', '#5c717f', '#687c89', '#758793', '#82929d', '#8e9ca6', '#9ba7b0;']
+const anchors = ['wstep', 'preview', 'wybor-projektu', 'wykorzystane-narzedzia', 'prezentacja-projektu', 'podsumowanie', 'podziekowania'];
+const navigationTooltips = ['Wstęp', 'Preview', 'Wybór projektu', 'Wykorzystane narzędzia', 'Prezentacja Projektu', 'Podsumowanie', 'Podziękowania'];
+const backgroundColors = ['#112f44', '#1d3a4e', '#1d3a4e', '#2a4558', '#365061', '#435b6b', '#4f6675', '#5c717f', '#687c89', '#758793', '#82929d', '#8e9ca6', '#9ba7b0;']
 
 class Slides extends Component {
 
@@ -48,9 +48,7 @@ class Slides extends Component {
                                 <Slide5 />
                                 <Slide6 />
                                 <Slide7 />
-                                <Slide8 />
-                                <Slide9 />
-                                <Slide10 />
+
                             </ReactFullpage.Wrapper>
                         );
                     }}
