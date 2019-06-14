@@ -8,11 +8,11 @@ export default class Slide5 extends Component {
                     Wybrane Funkcje Aplikacji
                 </div>
                 <div className="slide">
-                    <h3>Responsywnosc</h3>
+                    <h3>Responsywność</h3>
                     <p>Dopasowanie interfejsu do wielu urządzeń</p>
                 </div>
                 <div className="slide">
-                    <h3>Intro</h3>
+                    <h3>Animowane Intro</h3>
                     <p>Losowe generowanie gwiazd tla</p>
                     <p>Animowane Intro wykorzystujace przejscia oraz animacje css</p>
                 </div>
@@ -26,7 +26,7 @@ export default class Slide5 extends Component {
                     Swapi oraz themoviedb, pobieranie dodatkowych danych
                 </div>
                 <div className="slide">
-                    <h3>InfiniteScroll</h3>
+                    <h3>Wykorzystanie InfiniteScroll</h3>
                     Ladowanie dodatkowych elementow
                 </div>
                 <div className="slide">
