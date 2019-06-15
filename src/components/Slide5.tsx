@@ -4,14 +4,15 @@ export default class Slide5 extends Component {
     render() {
         return (
             <section className="section">
+                <div className="section-title">
+                    Wybrane Funkcje Aplikacji
+                </div>
                 <div className="slide">
                     <h1>Integracja API</h1>
                     <h3>swapi.co</h3>
                     <h3>themoviedb.org</h3>
                 </div>
-                <div className="section-title">
-                    Wybrane Funkcje Aplikacji
-                </div>
+                
                 <div className="slide">
                     <h1>Responsywność</h1>
                 </div>
@@ -26,6 +27,9 @@ export default class Slide5 extends Component {
                 </div>
                 <div className="slide">
                     <h3>Cache</h3>
+                </div>
+                <div className="slide">
+                    <h1>Progressive Web App</h1>
                 </div>
             </section>
         )
