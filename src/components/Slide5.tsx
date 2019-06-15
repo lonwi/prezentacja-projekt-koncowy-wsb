@@ -8,31 +8,26 @@ export default class Slide5 extends Component {
                     Wybrane Funkcje Aplikacji
                 </div>
                 <div className="slide">
-                    <h3>Responsywność</h3>
-                    <p>Dopasowanie interfejsu do wielu urządzeń</p>
+                    <h1>Responsywność</h1>
                 </div>
                 <div className="slide">
-                    <h3>Animowane Intro</h3>
+                    <h1>Animowane Intro</h1>
                     <p>Losowe generowanie gwiazd tla</p>
                     <p>Animowane Intro wykorzystujace przejscia oraz animacje css</p>
                 </div>
                 <div className="slide">
-                    <h3>Angular Router</h3>
-                    Prezentowanie compnentow na podstawie sciezki url
-                    Przekazywanie parametrów do pobieranie wlasciwych danych
+                    <h1>Angular Router</h1>
                 </div>
                 <div className="slide">
-                    <h3>Integracja API</h3>
-                    Swapi oraz themoviedb, pobieranie dodatkowych danych
+                    <h1>Integracja API</h1>
+                    <h3>swapi.co</h3>
+                    <h3>themoviedb.org</h3>
                 </div>
                 <div className="slide">
-                    <h3>Wykorzystanie InfiniteScroll</h3>
-                    Ladowanie dodatkowych elementow
+                    <h1>Wykorzystanie InfiniteScroll</h1>
                 </div>
                 <div className="slide">
                     <h3>Cache</h3>
-                    Szybsze ponowne ladowanie danych
-                    Mniejsze wykorzystanie internetu
                 </div>
             </section>
         )

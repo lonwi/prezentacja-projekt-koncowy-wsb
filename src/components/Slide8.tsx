@@ -4,7 +4,8 @@ export default class Slide8 extends Component {
     render() {
         return (
             <section className="section">
-                Witam
+                <h1>Dziękuje za Uwagę</h1>
+                <h2>Chętnie odpowiem na pytania</h2>
             </section>
         )
     }

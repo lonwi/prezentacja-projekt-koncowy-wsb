@@ -4,7 +4,9 @@ export default class Slide9 extends Component {
     render() {
         return (
             <section className="section">
-                Witam
+                <h1>Aplikacja Internetowa z użyciem REST API</h1>
+                <h1>Projekt zrealizowany</h1>
+                <h2>angular-swapi-app.lonwi.now.sh</h2>
             </section>
         )
     }
