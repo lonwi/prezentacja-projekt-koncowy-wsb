@@ -12,7 +12,6 @@ export default class Slide5 extends Component {
                     <h3>swapi.co</h3>
                     <h3>themoviedb.org</h3>
                 </div>
-                
                 <div className="slide">
                     <h1>Responsywność</h1>
                 </div>
