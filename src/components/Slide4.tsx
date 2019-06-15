@@ -15,7 +15,8 @@ export default class Slide4 extends Component {
                 </div>
                 <h3>Progresywna Aplikacja Internetowa</h3>
                 <h3>Angular oraz Ionic</h3>
-                Zeit, TypeScript, Visual Studio Code, Cmder
+                <h4>TypeScript, Sass</h4>
+                <p></p>Zeit, Visual Studio Code, Cmder
             </section>
         )
     }
