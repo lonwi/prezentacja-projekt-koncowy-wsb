@@ -15,7 +15,7 @@ import Slide10 from './Slide10';
 
 const anchors = ['witam', 'agenda', 'preview', 'wybor-projektu', 'wykorzystane-narzedzia', 'prezentacja-projektu', 'dalszy-rozwoj', 'podsumowanie', 'podziekowania', 'linki'];
 const navigationTooltips = ['Wstęp', 'Agenda', 'Preview', 'Wybór projektu', 'Wykorzystane narzędzia', 'Prezentacja projektu', 'Dalszy rozwój', 'Podsumowanie', 'Podziękowania', 'Linki'];
-const backgroundColors = ['#112f44', '#1d3a4e', '#1d3a4e', '#2a4558', '#365061', '#435b6b', '#4f6675', '#5c717f', '#687c89', '#758793', '#82929d', '#8e9ca6', '#9ba7b0;']
+const backgroundColors = ['#112f44', '#112f44', '#1d3a4e', '#1d3a4e', '#2a4558', '#365061', '#435b6b', '#4f6675', '#5c717f', '#687c89', '#758793', '#82929d', '#8e9ca6', '#9ba7b0;']
 
 class Slides extends Component {
 
