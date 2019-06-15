@@ -12,8 +12,6 @@ export default class Slide5 extends Component {
                 </div>
                 <div className="slide">
                     <h1>Animowane Intro</h1>
-                    <p>Losowe generowanie gwiazd tla</p>
-                    <p>Animowane Intro wykorzystujace przejscia oraz animacje css</p>
                 </div>
                 <div className="slide">
                     <h1>Angular Router</h1>
